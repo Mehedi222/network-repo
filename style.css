@@ -1,9 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-select{
+section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 h1{
     font-size: 50px;
@@ -24,6 +24,13 @@ h1 samp{
     text-decoration: none;
     background-color: tomato;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.half-width p{
+    margin-bottom: 50px;
 }
