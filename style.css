@@ -11,6 +11,12 @@ h1{
 h1 samp{
     color: orangered;
 }
+h2{
+    color: gray;
+}
+p{
+    color: gray;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -23,7 +29,7 @@ h1 samp{
 .anchor-button{
     text-decoration: none;
     background-color: tomato;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
 }
@@ -32,5 +38,71 @@ h1 samp{
     background-repeat: no-repeat;
 }
 .half-width p{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
+/* service part start */
+#service{
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+.container p{
+     
+    text-align: center;
+    padding: 20px;
+}
+.ser_img img{
+    width: 100%;
+    max-width: 100%;
+}
+.ser_row{
+    display: flex;
+    margin-left: 100px;
+}
+.ser_col{
+    width: 25%;
+    margin-right: 20px;
+    padding: 50px 20px 20px;
+    background: #f1f1f1;
+    border-radius: 10%;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+/* footer part start */
+footer{
+    background: black;
+    height: 120px;
+
+}
+ h4{
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+
+}
+footer p{
+    text-align: center;
+    
+}
+h4 samp{
+    color: indianred;
+
+}
+
+
+
+
+
+
+
+/* footer part end */
+
+
+
+/* service part end */
+
+
